@@ -70,8 +70,15 @@ export default function Home() {
         <List spacing={3}>
           <ListItem>
             <ListIcon icon="check-circle" color="green.500" />
-            Copy this repository to your GitHub account privately, work on your copy and when you
-            are ready send us a pull request to our repo{' '}
+            Copy{' '}
+            <Link
+              href="https://github.com/mentors-land/interview-front-end"
+              isExternal
+              fontWeight="bold">
+              this repository
+            </Link>{' '}
+            to your GitHub account privately, work on your copy and when you are ready send us a
+            pull request to our repo{' '}
             <span role="img" aria-label="Dinosaur emoji">
               🦖
             </span>
