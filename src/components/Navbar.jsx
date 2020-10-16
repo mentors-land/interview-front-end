@@ -13,7 +13,7 @@ const Navbar = () => (
       w="100%">
       <Link href="/">
         <Text fontSize="2xl" fontWeight="bold">
-          Mentors Land{' '}
+          Front-End Interview{' '}
           <span role="img" aria-label="Rainbow emoji">
             🌈
           </span>

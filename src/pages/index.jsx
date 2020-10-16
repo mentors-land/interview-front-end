@@ -1,4 +1,5 @@
 import { Box, Text, Heading, List, ListItem, ListIcon, Link } from '@chakra-ui/core';
+import NextLink from 'next/link';
 
 import MainLayout from 'layouts/Main';
 
@@ -56,6 +57,18 @@ export default function Home() {
               semantic commits
             </Link>
             ){' '}
+            <span role="img" aria-label="Eyes emoji">
+              😎
+            </span>
+          </ListItem>
+          <ListItem>
+            Check our{' '}
+            <strong>
+              <Link as={NextLink} href="/stack" fontWeight="bold">
+                technology stack
+              </Link>
+            </strong>
+            for more information
             <span role="img" aria-label="Eyes emoji">
               😎
             </span>
